@@ -1,0 +1,109 @@
+/*Common Elements*/
+body {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: blueviolet;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.87;
+}
+/*Header*/
+
+header {
+    position: relative;
+    padding: 13px 0;
+    background: #fff;
+    color: rgb(62, 74, 182);
+    font-size: 30px;
+    font-family: Arial, Heletica, sans-serif;
+    transition: margin-bottom 0.25s ease-in-out;
+}
+
+h1 {
+    text-decoration-color: blueviolet;
+    color: rgb(94, 94, 160);
+    font-size: 10px;
+}
+#menu {
+    position: sticky;
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+    }
+
+.menuItem {
+    display: inline;
+    padding: 5px 5px 20px 5px;
+    position: relative;
+    text-align: center;
+}
+/*Nav Bars*/
+nav {
+    color: #000;
+    font-size: 1em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0 ;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: blue;
+    padding: 0.3em 0.6em;
+}
+nav li a:hover {
+    color: blueviolet;
+    }
+/* Sub Menus */
+nav li li {
+    font-size: .8em;
+  }
+  
+  nav li ul {
+      position: absolute;
+      display: none;
+      width: inherit;
+  }
+  
+  nav li:hover ul {
+     display: block;
+     background-color: white;
+
+  }
+  
+  nav li ul li {
+     display: block;
+   }
+/*Banner*/
+
+/*Main Section*/
+.featured {
+    display: inline;
+    align-content: stretch;
+    padding: 5px 5px 5px 5px;
+  }
+.brands {
+    display: inline;
+    align-content: stretch;
+    padding: 5px 5px 5px 5px;
+}
+.social {
+    display: inline;
+    align-content: stretch;
+    padding: 5px 5px 5px 5px;
+}
+
+.credit {
+    display: inline;
+    align-content: center;
+    padding: 5px 5px 5px 5px;
+}
+
+/*Footer*/
